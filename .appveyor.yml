@@ -14,6 +14,7 @@ install:
 build: off
 
 build_script:
+  - npm install turbo --global
   - npm run build
 
 deploy_script:
