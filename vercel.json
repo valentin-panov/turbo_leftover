@@ -1,5 +1,5 @@
 {
-  "outputDirectory": "build",
+  "outputDirectory": "dist",
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "git": {
     "deploymentEnabled": {
