@@ -2,8 +2,8 @@
   "$schema": "https://turborepo.org/schema.json",
   "pipeline": {
     "build": {
+      "outputs": ["build/**/*", ".next/**/*"],
       "dependsOn": ["^build"],
-      "outputs": ["build/**", ".next/**"],
       "env": ["NODE_ENV"]
 
     },
