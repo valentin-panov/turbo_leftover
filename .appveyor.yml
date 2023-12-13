@@ -15,7 +15,7 @@ build: off
 
 build_script:
   - npm install turbo --global
-  - npm run build
+  - turbo run build
 
 deploy_script:
   - git config --global credential.helper store
