@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wdcfy2kfxfcnbp56?svg=true)](https://ci.appveyor.com/project/vapanov/turbo-leftover)
 WEB VERSION: https://turbo-leftover.vercel.app
 
 # Try to find the development artefact in the production build?
