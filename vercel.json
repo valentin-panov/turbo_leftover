@@ -1,3 +1,10 @@
 {
-  "outputDirectory": "build"
+  "outputDirectory": "build",
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": {
+    "deploymentEnabled": {
+      "benchmark-data": false,
+      "gh-pages": false
+    }
+  }
 }
