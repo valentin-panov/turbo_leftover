@@ -2,7 +2,6 @@
   "name": "turbo_leftover",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://valentin-panov.github.io/turbo_leftover/",
   "workspaces": [
     "apps/*",
     "packages/*"
@@ -21,6 +20,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
   "packageManager": "npm@8.19.4"
 }

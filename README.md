@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/mc8jqmnsx2r94dr7?svg=true)](https://ci.appveyor.com/project/vapanov/webpack-leftover-strip)
 
-WEB VERSION: https://valentin-panov.github.io/webpack_leftover_strip/
+WEB VERSION: https://turbo-leftover.vercel.app
 
 # Try to find the development artefact in the production build?
 
