@@ -1,11 +1,10 @@
 {
   "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": ["NODE_ENV"],
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**", ".next/**"],
-      "env": ["NODE_ENV"]
-
+      "outputs": ["dist/**", ".next/**"]
     },
     "lint": {
       "outputs": []

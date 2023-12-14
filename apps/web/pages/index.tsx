@@ -9,10 +9,17 @@ export default function Web() {
         }
     }, []);
 
+    const clickHandler =() => {
+        if (process.env.NODE_ENV !== 'production') {
+            alert('FIND ME IN THE CHUNK? /// NODE_ENV: ' + process.env.NODE_ENV)
+        }
+    }
+
   return (
     <div>
       <h1>Web</h1>
-      <Button />
+        <p>Environment: {process.env.NODE_ENV}</p>
+      <Button onClick={clickHandler} />
     </div>
   );
 }
