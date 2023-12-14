@@ -12,6 +12,8 @@ export default function Web() {
     const clickHandler =() => {
         if (process.env.NODE_ENV !== 'production') {
             alert('FIND ME IN THE CHUNK? /// NODE_ENV: ' + process.env.NODE_ENV)
+        } else {
+            alert('Production environment!')
         }
     }
 
@@ -19,7 +21,7 @@ export default function Web() {
     <div>
       <h1>Web</h1>
         <p>Environment: {process.env.NODE_ENV}</p>
-      <Button onClick={clickHandler} />
+      <Button clickHandler={clickHandler} />
     </div>
   );
 }
